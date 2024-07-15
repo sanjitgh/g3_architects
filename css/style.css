@@ -237,3 +237,27 @@ section{
     font-size: 20px;
     font-weight: 600;
 }
+
+/* Our Sponsors style */
+.sponsors_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.sponsors_content{
+    max-width: 690px;
+    margin: 0 auto 50px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.sponsors_img_container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    margin-bottom: 130px;
+}
+.sponsors_img_container img{
+    filter: grayscale(100%);
+}
