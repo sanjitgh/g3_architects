@@ -30,13 +30,36 @@
     color: #727272;
 }
 
+.img_fluid{
+    width: 100%;
+}
+
+.btn{
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 100px;
+}
+
 /* header style */
 .header_bg{
     background-color: rgba(255, 144, 14, 0.1);
+    padding-bottom: 35px;
 }
 
 .logo{
-    font-size: 30px;
+    font-size: 2.8rem;
     font-weight: 700;
 }
 
@@ -58,4 +81,67 @@
 .nav_bar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+
+/* banner style */
+
+.banner{
+
+}
+.banner_content{
+    text-align: center;
+    width: 870px;
+    margin: 0 auto;
+
+}
+
+.banner_title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+.banner_content{
+    margin-bottom: 2rem;
+}
+
+.btn_explore{
+    cursor: pointer;
+}
+
+.banner_img{
+    margin-top: 50px;
+}
+
+/* our_features style */
+
+.our_features{
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+
+.features_images{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.features_content{
+    width: 50%;
+}
+
+.features_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.features_inner_content{
+    font-size: 16px;
+    margin-bottom: 32px;
+    max-width: 550px;
+    line-height: 26px;
 }
