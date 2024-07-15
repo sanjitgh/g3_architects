@@ -85,9 +85,6 @@ section{
 
 /* banner style */
 
-.banner{
-
-}
 .banner_content{
     text-align: center;
     width: 870px;
@@ -144,4 +141,99 @@ section{
     margin-bottom: 32px;
     max-width: 550px;
     line-height: 26px;
+}
+
+/* Features you will love style */
+.features_love{
+    gap: 130px;
+}
+
+.features_love_content{
+    width: 50%;
+}
+
+.features_love_content h1{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 130px;
+}
+
+.features_love_img{
+    width: 50%;
+}
+
+.features_love_card{
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.features_love_card h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.features_love_card p{
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.btn_f_love{
+    margin-left: -90px;
+    margin-top: -90px;
+}
+
+.years{
+    font-size: 4rem;
+    font-weight: 700;
+    display: block;
+}
+
+.experience{
+    font-size: 25px;
+}
+
+/* fact style */
+.fact_title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.fact_content{
+    max-width: 550px;
+    margin-bottom: 100px;
+}
+
+.fact_card_container{
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fact_card{
+    border-radius: 8px;
+    border: 2px solid rgba(255, 144, 14, 1);
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fact_card img{
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.fact_card h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.fact_card h6{
+    font-size: 20px;
+    font-weight: 600;
 }
